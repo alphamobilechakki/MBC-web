@@ -49,4 +49,9 @@ export const UserProduct = async () => {
   return await api.get(Endpoints.User.USERGETPRODUCT);
 };
 
+// contact us
+export const ContactUs = async (data) => {
+  return await api.post(Endpoints.User.CONTACTUS, data);
+};
+
        

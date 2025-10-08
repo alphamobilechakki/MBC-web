@@ -36,10 +36,6 @@ export const signUpSchema = Yup.object().shape({
 
 export const ContactSchema = Yup.object().shape({
    name: Yup.string().required("Name is required"),
-  // email: Yup.string().email("Invalid email").required("Email is required"),
-   email: Yup.string()
-    .email("Invalid email") // ✅ only validates if user types something
-    .notRequired(),
   phone: Yup.string()
     .matches(/^[6-9]\d{9}$/, "Phone must be 10 digits and start with 6,7,8, or 9")
     .required("Phone is required"),

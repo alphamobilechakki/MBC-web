@@ -18,7 +18,8 @@ const Endpoints = {
           SENDOTPSIGNIN : '/api/login',
           SIGNINVERIFYOTP : '/api/VerifyOTP',
           USERGETALLCATEGORY: '/api/categories',
-          USERGETPRODUCT: '/api/products'
+          USERGETPRODUCT: '/api/products',
+          CONTACTUS: '/api/contact'
           
      }
 
