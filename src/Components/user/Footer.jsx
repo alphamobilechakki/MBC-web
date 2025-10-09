@@ -21,7 +21,7 @@ export default function Footer() {
         { name: "Blog", path: "/blog" },
         { name: "Services", path: "/Services" },
         { name: "About Us", path: "/aboutus" },
-        { name: "Contact", path: "/contact" },
+        { name: "Contact Us", path: "/contact" },
       ],
     },
     {
