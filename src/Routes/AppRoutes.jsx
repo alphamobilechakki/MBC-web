@@ -22,6 +22,7 @@ import FAQ from "../Pages/FAQ";
 import PrivacyPolicy from "../Pages/PrivacyPolicy";
 import TermsAndConditions from "../Pages/TermsAndConditions";
 import { Services } from "../Pages/services/Services";
+import ReturnsPolicy from "../Pages/ReturnsPolicy";
 
 const AppRoutes = () => {
   return (
@@ -36,6 +37,7 @@ const AppRoutes = () => {
       <Route path="/faq" element={<UserLayout>  <FAQ /> </UserLayout>} />
       <Route path="/privacy" element={<UserLayout>  <PrivacyPolicy /> </UserLayout>} />
       <Route path="/terms" element={<UserLayout>   <TermsAndConditions /> </UserLayout>} />
+      <Route path="/returns-policy" element={<UserLayout>   <ReturnsPolicy /> </UserLayout>} />
 
       {/* 👇 Login & Signup without Header/Footer */}
       <Route path="/signin" element={<SignInUser />} />

@@ -28,7 +28,7 @@ export default function Footer() {
       title: "Customer Service",
       links: [
         { name: "FAQ", path: "/faq" },
-        { name: "Returns", path: "/returns" },
+        { name: "Returns Policy", path: "/returns-policy" },
         { name: "Shipping", path: "/shipping" },
         { name: "Privacy Policy", path: "/privacy" },
         { name: "Terms & Condition", path: "/terms" },
