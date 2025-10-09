@@ -29,7 +29,7 @@ export default function Footer() {
       links: [
         { name: "FAQ", path: "/faq" },
         { name: "Returns Policy", path: "/returns-policy" },
-        { name: "Shipping", path: "/shipping" },
+        { name: "Shipping Policy", path: "/shipping-policy" },
         { name: "Privacy Policy", path: "/privacy" },
         { name: "Terms & Condition", path: "/terms" },
       ],

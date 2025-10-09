@@ -94,7 +94,7 @@ const ReturnsPolicy = () => {
               <Phone size={20} /> Call Us
             </a>
             <a
-              href="mailto:support@mobilechakki.com"
+              href="mailto:aatachakki807@gmail.com"
               className="flex items-center gap-2 bg-[#da352d] hover:bg-[#b62c26] text-white py-2 px-4 rounded-full transition duration-200"
             >
               <Mail size={20} /> Email Support

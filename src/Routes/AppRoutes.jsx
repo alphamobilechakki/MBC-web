@@ -23,6 +23,7 @@ import PrivacyPolicy from "../Pages/PrivacyPolicy";
 import TermsAndConditions from "../Pages/TermsAndConditions";
 import { Services } from "../Pages/services/Services";
 import ReturnsPolicy from "../Pages/ReturnsPolicy";
+import ShippingPolicy from "../Pages/ShippingPolicy";
 
 const AppRoutes = () => {
   return (
@@ -38,6 +39,7 @@ const AppRoutes = () => {
       <Route path="/privacy" element={<UserLayout>  <PrivacyPolicy /> </UserLayout>} />
       <Route path="/terms" element={<UserLayout>   <TermsAndConditions /> </UserLayout>} />
       <Route path="/returns-policy" element={<UserLayout>   <ReturnsPolicy /> </UserLayout>} />
+      <Route path="/shipping-policy" element={<UserLayout>   <ShippingPolicy /> </UserLayout>} />
 
       {/* 👇 Login & Signup without Header/Footer */}
       <Route path="/signin" element={<SignInUser />} />
